@@ -25,7 +25,7 @@ public class Client {
             p.draw();
         }
         StdDraw.show();
-        System.out.println("dsf");
+        
         // print and draw the line segments
         //BruteCollinearPoints collinear = new BruteCollinearPoints(points);
         FastCollinearPoints collinear = new FastCollinearPoints(points);
